@@ -50,19 +50,14 @@ console.log(sister)
 
 let myNumber = 10;
 
-// Reassigning a new value
 myNumber = 20;
 
-// Logging both values
-console.log("Initial value:", myNumber); // Output: Initial value: 10
-console.log("Reassigned value:", myNumber); // Output: Reassigned value: 20
+console.log(myNumber);
+console.log( myNumber);
 
 
-const myConstant = 10;
+const myConokaro = 10;
 
 // Attempting to reassign a new value (will throw an error)
-// Uncommenting the following line will result in a TypeError: Assignment to constant variable
-// myConstant = 20;
 
-// Logging the initial value
-console.log("Initial value:", myConstant); // Output: Initial value: 10
+console.log("Initial value:", myConokaro); // Output: Initial value: 10
